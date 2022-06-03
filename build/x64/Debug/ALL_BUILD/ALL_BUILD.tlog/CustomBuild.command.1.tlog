@@ -1,0 +1,10 @@
+^C:\USERS\JEFER\DOCUMENTS\GITHUB\ED22-01-AVALOS-RIOS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios -BC:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build --check-stamp-file C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

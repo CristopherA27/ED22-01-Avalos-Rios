@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\build\CMakeFiles\c41a2782754cc88c3d5c0b24509e0eef\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A5BE6EB7-3EAC-3CF7-9C51-0947A37E06BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
