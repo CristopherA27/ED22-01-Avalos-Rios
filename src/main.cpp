@@ -7,3 +7,4 @@ int main(int, char**) {
     cout<<"Numero del nodo"<< n->getNumber()<<endl;
     std::cout << "Hello, world!\n";
 }
+

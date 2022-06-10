@@ -14,5 +14,4 @@ class Nodo{
     int getNumber();
     ~Nodo();
 };
-
 //#endif //ED22_01_AVALOS_RIOS_NODO_H
