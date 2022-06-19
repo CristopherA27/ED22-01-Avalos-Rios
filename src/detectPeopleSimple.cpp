@@ -28,7 +28,7 @@ public:
     }    
     //Va a seleccionar el modo de deteccion del algoritmo//si es default sera daimler y viceversa
     void toggleMode() { m = (m == Default ? Daimler : Default); }
-    //es para saber en que modo estoy
+    //es para saber en que modo estoy 
     string modeName() const { return (m == Default ? "Default" : "Daimler"); }
 
     vector<Rect> detect(InputArray img){
@@ -36,7 +36,7 @@ public:
         // (and more false alarms, respectively), decrease the hitThreshold and
         // groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
         vector<Rect> found;
-        if (m == Default)
+        if (m == Default)//  el modo de detccion
             hog.detectMultiScale(img, found, 0, Size(2,2), Size(4,4), 1.05, 2, false);
         else if (m == Daimler)
             hog_d.detectMultiScale(img, found, 0, Size(4,4), Size(8,8), 1.01, 3, true);
@@ -46,7 +46,7 @@ public:
             
         return found;
     }
-
+    //Codigo para regular el rectangulo que define la imagen 
     void adjustRect(Rect & r) const{
         // The HOG detector returns slightly larger rectangles than the real objects,
         // so we slightly shrink the rectangles to get a nicer output.
