@@ -95,39 +95,7 @@ void List<T>::del_by_position(int pos)
     }
 }
  
-// Números que coinciden en 2 Lists
-template<typename T>
-void List<T>::intersection(List list_2)
-{
-    Node<T> *temp = m_head;
-    Node<T> *temp2 = list_2.m_head;
- 
-    // Creo otra Lista
-    List intersection_list;
- 
-    int num_nodes_2 = list_2.m_num_nodes;
-    int num_inter = 0;
- 
-    // Creo 2 vectores dinámicos
-    T *v1 = new T[m_num_nodes];
-    T *v2 = new T[num_nodes_2];
- 
-    // Lleno los vectores v1 y v2 con los datas de la lista original y segunda lista respectivamente
-    int i = 0;
- 
-    while (temp) {
-        v1[i] = temp->data;
-        temp = temp->next;
-        i++;
-    }
- 
-    int j = 0;
- 
-    while (temp2) {
-        v2[j] = temp2->data;
-        temp2 = temp2->next;
-        j++;
-    }
+
  
     // Ordeno los vectores
     insert_sort(v1, m_num_nodes);

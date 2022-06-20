@@ -22,7 +22,7 @@ class List
         void add_head(T);  
         void del_all();        
         void del_by_position(int);        
-        void intersection(List);    
+           
         void print();
         void search(T);
         
