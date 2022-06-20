@@ -6,6 +6,7 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/videoio.hpp>
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -14,6 +15,7 @@
 using namespace cv;
 using namespace std;
 
+
 class Detector
 {
     //Atributos (Privados)
@@ -21,7 +23,6 @@ class Detector
     enum Mode { Default, Daimler } m;//el tipo de dato se llamara "m",es un tipo de enumerador
     // Algoritimo de deteccion de personas
     HOGDescriptor hog, hog_d;
-
 public:
     //m tomara el valor default,el hog_d->el tamaño de busqueda de iamgen sera de tamaño..
     Detector() : m(Default), hog(), hog_d(Size(48, 96), Size(16, 16), Size(8, 8), Size(8, 8), 9){
@@ -39,13 +40,10 @@ public:
         // groupThreshold (set groupThreshold to 0 to turn off the grouping completely).
         vector<Rect> found;
         if (m == Default)//  el modo de detccion
-            hog.detectMultiScale(img, found, 0, Size(2,2), Size(4,4), 1.05, 2, false);
+            hog.detectMultiScale(img, found, 0.0, Size(2,2), Size(4,4), 1.05, 2, false);
         else if (m == Daimler)
-            hog_d.detectMultiScale(img, found, 0, Size(4,4), Size(8,8), 1.01, 3, true);
-
+            hog_d.detectMultiScale(img, found, 0.0, Size(4,4), Size(8,8), 1.01, 3, true);
         // Convierto los objetos Rect a Persona
-        
-            
         return found;
     }
     //Codigo para regular el rectangulo que define la imagen 
@@ -57,12 +55,10 @@ public:
         r.y += cvRound(r.height*0.07);
         r.height = cvRound(r.height*0.8);
     }
-
 };
 
 int main(int argc, char** argv)
 {
-
     // Es una clase que tiene metodos para detectar personas
     Detector detector;
     // Declaro una estructura de tipo matriz (Mat)
@@ -91,7 +87,6 @@ int main(int argc, char** argv)
         //paso la imagen
         //dibuja el rectangulo
     }
-
     imshow("People detector", imagen);//creo el cuadro con la imagen
     waitKey(0);
 
