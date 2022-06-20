@@ -3,8 +3,9 @@ project(ED22-01-AVALOS-RIOS VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
+find_package( OpenCV REQUIRED)
 #Tengo que importar todos mis modulos que este utilizando
-include_directories("src")
+include_directories("src" ${OpenCV_INCLUDE_DIRS} )
 add_executable(ED22_01_AVALOS_RIOS src/logic/Nodo.cpp detectPeople.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

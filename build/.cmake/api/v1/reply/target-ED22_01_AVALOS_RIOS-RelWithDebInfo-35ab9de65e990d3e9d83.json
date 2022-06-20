@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/ED22_01_AVALOS_RIOS.exe"
+			"path" : "RelWithDebInfo/ED22_01_AVALOS_RIOS.exe"
 		},
 		{
-			"path" : "MinSizeRel/ED22_01_AVALOS_RIOS.pdb"
+			"path" : "RelWithDebInfo/ED22_01_AVALOS_RIOS.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
 				}
 			],
 			"includes" : 
@@ -53,6 +53,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Jefer/Documents/opencv/build/include"
 				}
 			],
 			"language" : "CXX",
@@ -75,11 +79,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{

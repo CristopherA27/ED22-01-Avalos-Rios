@@ -264,6 +264,9 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
+//The directory containing a CMake configuration file for OpenCV.
+OpenCV_DIR:PATH=C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib
+
 //Name of the computer/site where compile is being run
 SITE:STRING=LAPTOP-6B714T5F
 
@@ -426,6 +429,8 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//Details about finding OpenCV
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[C:/Users/Jefer/Documents/opencv/build][v4.5.5()]
 //ADVANCED property for variable: GITCOMMAND
 GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND

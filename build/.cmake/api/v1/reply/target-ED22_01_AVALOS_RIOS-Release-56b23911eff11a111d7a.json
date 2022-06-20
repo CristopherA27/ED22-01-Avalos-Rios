@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -53,6 +53,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Jefer/Documents/opencv/build/include"
 				}
 			],
 			"language" : "CXX",

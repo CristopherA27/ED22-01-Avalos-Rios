@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 
     Detector detector;
     Mat imagen;
-    imagen = imread("C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\images.png");
+    imagen = imread("C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/images.png");
     detector.toggleMode();
     cout << detector.modeName() << endl;
 
