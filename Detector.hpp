@@ -1,5 +1,7 @@
 #ifndef DETECTOR_H
 #define DETECTOR_H
+#include "Detector.hpp"
+#include "Persona.hpp"
 
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>

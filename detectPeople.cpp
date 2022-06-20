@@ -2,6 +2,9 @@
 // It is subject to the license terms in the LICENSE file found in the top-level directory
 // of this distribution and at http://opencv.org/license.html
 
+#include "Detector.hpp"
+#include "Persona.hpp"
+
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -9,9 +12,6 @@
 
 #include <iostream>
 #include <iomanip>
-
-#include "Detector.hpp"
-#include "Persona.hpp"
 
 using namespace cv;
 using namespace std;
@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 
     Detector detector;
     Mat imagen;
-    imagen = imread("/home/jbekios/CODE/opencvTests/images/image0292.png");
+    imagen = imread("C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\images.png");
     detector.toggleMode();
     cout << detector.modeName() << endl;
 

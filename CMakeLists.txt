@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 #Tengo que importar todos mis modulos que este utilizando
 include_directories("src")
-add_executable(ED22_01_AVALOS_RIOS src/logic/Nodo.cpp src/main.cpp)
+add_executable(ED22_01_AVALOS_RIOS src/logic/Nodo.cpp detectPeople.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
