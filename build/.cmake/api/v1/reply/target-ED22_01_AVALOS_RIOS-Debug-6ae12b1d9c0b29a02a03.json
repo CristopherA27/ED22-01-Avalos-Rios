@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/ED22_01_AVALOS_RIOS.exe"
+			"path" : "Debug/ED22_01_AVALOS_RIOS.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/ED22_01_AVALOS_RIOS.pdb"
+			"path" : "Debug/ED22_01_AVALOS_RIOS.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
 				}
 			],
 			"includes" : 
@@ -79,7 +79,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
 				"role" : "flags"
 			},
 			{
@@ -122,7 +122,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "detectPeople.cpp",
+			"path" : "detectPeopleSimple.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

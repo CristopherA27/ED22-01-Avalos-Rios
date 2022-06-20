@@ -8,6 +8,8 @@
 #include <opencv2/videoio.hpp>
 #include <iostream>
 #include <iomanip>
+#include <string>
+#include <stdio.h>
 
 using namespace cv;
 using namespace std;
@@ -66,10 +68,10 @@ int main(int argc, char** argv)
     // Declaro una estructura de tipo matriz (Mat)
     Mat imagen;
     // Cargo la estructura de datos con una imagen
-    imagen = imread("/home/jbekios/CODE/opencvTests/personas.png");
+    imagen = imread("C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/images.png");
 
     // Cambia el tipo de algoritmo de deteccion de personas
-    //detector.toggleMode();
+    detector.toggleMode();
 
     // Ejecuto el detector llamando al metodo detect
     vector<Rect> found = detector.detect(imagen);

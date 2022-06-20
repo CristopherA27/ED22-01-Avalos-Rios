@@ -4,7 +4,7 @@
     <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\src\logic\Nodo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\detectPeople.cpp">
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\detectPeopleSimple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
