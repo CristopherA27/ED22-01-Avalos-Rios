@@ -79,7 +79,7 @@ int main(int argc, char** argv)
     {
         //Voy obtebiendo los rectangulos y los dibujo arriba de la imagen
         Rect &r = *i;
-        cout << r << endl;
+       cout << r << endl;
         // Los puntos de deteccion que hace el algoritmo muy grande
         detector.adjustRect(r);//Ajusta los puntos de deteccion
         // Dibujar el rectangulo
