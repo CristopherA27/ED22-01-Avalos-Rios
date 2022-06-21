@@ -1,7 +1,6 @@
 #include "Persona.hpp"
 
 class Nodo{
-    private:
     Persona persona;
     Nodo* next;
 
@@ -10,6 +9,6 @@ class Nodo{
     Nodo(Persona persona);
     void setNext(Nodo* nodo);
     Nodo* getNext();
-    int getPersona();
+    Persona getPersona();
     ~Nodo();
 };

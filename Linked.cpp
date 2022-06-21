@@ -17,11 +17,11 @@ class LinkedList{
 
     void addNode(Persona persona){
         Nodo *nuevo = new Nodo;
-        nuevo->persona = persona;
+        nuevo->getPersona()= persona;
         nuevo -> setNext(NULL);
 
         if(first == NULL){
-            first == nuevo;
+            first = nuevo;
         }
 
         

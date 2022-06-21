@@ -2,7 +2,9 @@
 #include "Persona.hpp"
 
 Nodo::Nodo(){
-
+    Nodo * nodo = new Nodo();
+    nodo->persona = persona;
+    nodo->next = NULL;
 }
 
 Nodo::Nodo(Persona persona){
