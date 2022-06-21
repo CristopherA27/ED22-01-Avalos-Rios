@@ -1,3 +1,4 @@
+#include "Detector.hpp"
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -9,8 +10,6 @@
 using namespace cv;
 using namespace std;
 
-
-#include "Detector.hpp"
 
 void Detector::toggleMode() { m = (m == Default ? Daimler : Default); }
     

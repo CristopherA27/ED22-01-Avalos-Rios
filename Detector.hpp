@@ -1,6 +1,7 @@
 #ifndef DETECTOR_H
 #define DETECTOR_H
 #include "Persona.hpp"
+#include "Detector.hpp"
 
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>
@@ -9,6 +10,8 @@
 
 #include <iostream>
 #include <iomanip>
+#include <string>
+#include <stdio.h>
 
 using namespace cv;
 using namespace std;
@@ -29,7 +32,7 @@ public:
 
     string modeName() const;//para saber en que modo estoy
 
-    vector<Rect> detect(InputArray img);//retornar un vector con las
+    vector<Persona> detect(InputArray img);//retornar un vector con las
     //detecciones del objeto rectangulo que hace hacia las personas
 
     void adjustRect(Rect & r) const;
