@@ -5,7 +5,7 @@ include(CTest)
 enable_testing()
 find_package( OpenCV REQUIRED)
 #Tengo que importar todos mis modulos que este utilizando
-include_directories("src" ${OpenCV_INCLUDE_DIRS} )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable(Nodo.cpp main.cpp detectPeopleSimple.cpp detectPeople.cpp Persona.cpp Detector.cpp Linked.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

@@ -1,3 +1,6 @@
+#ifndef NODO_H
+#define NODO_H
+
 #include "Persona.hpp"
 
 class Nodo{
@@ -12,3 +15,4 @@ class Nodo{
     Persona getPersona();
     ~Nodo();
 };
+#endif
