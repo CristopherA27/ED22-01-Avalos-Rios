@@ -1,5 +1,6 @@
 #ifndef DETECTOR_H
 #define DETECTOR_H
+
 #include "Persona.hpp"
 #include "Detector.hpp"
 
@@ -38,5 +39,4 @@ public:
     void adjustRect(Rect & r) const;
     //ajusta el rectangulo que detecto el detector original
 };
-
 #endif

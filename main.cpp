@@ -1,5 +1,5 @@
 #include <iostream>
-#include "logic/includes/Nodo.h"
+#include "Nodo.hpp"
 #include <iomanip>
 #include <string>
 #include <stdio.h>

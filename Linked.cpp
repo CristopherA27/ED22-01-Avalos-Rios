@@ -1,5 +1,5 @@
-#include "src/logic/includes/Nodo.h"
-#include "Persona.cpp"
+#include "Nodo.hpp"
+#include "Persona.hpp"
 
 
 #include <iostream>
@@ -17,7 +17,7 @@ class LinkedList{
 
     void addNode(Persona persona){
         Nodo *nuevo = new Nodo;
-        nuevo -> persona = persona;
+        nuevo->persona = persona;
         nuevo -> setNext(NULL);
 
         if(first == NULL){
