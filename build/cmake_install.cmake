@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios
+# Install script for directory: C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

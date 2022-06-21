@@ -1,6 +1,6 @@
-^C:\USERS\JEFER\DOCUMENTS\GITHUB\ED22-01-AVALOS-RIOS\BUILD\CMAKEFILES\C41A2782754CC88C3D5C0B24509E0EEF\GENERATE.STAMP.RULE
+^C:\USERS\CRIST\ONEDRIVE\DOCUMENTOS\GITHUB\ED22-01-AVALOS-RIOS\BUILD\CMAKEFILES\273F7E0E196B88C8ACFCB0D12A0B5A5E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios -BC:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/ED22-01-AVALOS-RIOS.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios -BC:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/ED22-01-AVALOS-RIOS.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

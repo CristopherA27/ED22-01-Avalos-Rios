@@ -52,11 +52,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/src"
+					"path" : "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Jefer/Documents/opencv/build/include"
+					"path" : "D:/Escritorio/opencv/build/include"
 				}
 			],
 			"language" : "CXX",
