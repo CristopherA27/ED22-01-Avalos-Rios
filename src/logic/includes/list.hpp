@@ -6,8 +6,7 @@
 #include <string>
 #include <stdlib.h>
  
-#include "node.h"
-#include "node.cpp"
+#include "Nodo.h"
  
 using namespace std;
  

@@ -4,7 +4,22 @@
     <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\src\logic\Nodo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\detectPeopleSimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\detectPeople.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\Persona.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\Detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Jefer\Documents\GitHub\ED22-01-Avalos-Rios\list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
