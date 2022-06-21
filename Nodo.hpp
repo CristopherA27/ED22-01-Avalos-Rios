@@ -13,6 +13,7 @@ class Nodo{
     void setNext(Nodo* nodo);
     Nodo* getNext();
     Persona getPersona();
+    void setPersona(Persona persona);
     ~Nodo();
 };
 #endif

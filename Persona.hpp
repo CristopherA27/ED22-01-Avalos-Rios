@@ -15,8 +15,8 @@ private:
     int yComienzo;
     int xFin;
     int yFin;
-    int xCentro;
-    int yCentro;
+    double xCentro;
+    double yCentro;
 public:
     Persona(cv::Rect&);
 
@@ -24,8 +24,8 @@ public:
     int getYComienzo();
     int getXFin();
     int getYFin();
-    int getXCentro();
-    int getYCentro();
+    double getXCentro();
+    double getYCentro();
 };
 
 #endif

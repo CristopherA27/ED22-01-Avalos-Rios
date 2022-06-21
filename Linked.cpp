@@ -17,7 +17,7 @@ class LinkedList{
 
     void addNode(Persona persona){
         Nodo *nuevo = new Nodo;
-        nuevo->getPersona()= persona;
+        nuevo->setPersona(persona);
         nuevo -> setNext(NULL);
 
         if(first == NULL){

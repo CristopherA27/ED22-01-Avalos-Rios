@@ -24,10 +24,10 @@ int Persona::getYFin(){
     return yFin;
 }
 
-int Persona::getXCentro(){
+double Persona::getXCentro(){
     return xCentro;
 }
 
-int Persona::getYCentro(){
+double Persona::getYCentro(){
     return yCentro;
 }
