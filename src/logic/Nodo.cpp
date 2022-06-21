@@ -1,11 +1,12 @@
 #include "includes/Nodo.h"
+#include "Persona.cpp"
 
 Nodo::Nodo(){
 
 }
 
-Nodo::Nodo(int numero){
-    this->numero = numero;
+Nodo::Nodo(Persona persona){
+    this->persona = persona;
 }  
 void Nodo::setNext(Nodo* nodo){
     this->next = nodo;
@@ -13,8 +14,8 @@ void Nodo::setNext(Nodo* nodo){
 Nodo* Nodo::getNext(){
     return this->next;
 }
-int Nodo::getNumber(){
-    return this->numero;
+int Nodo::getPersona(){
+    return this->persona;
 }
 Nodo :: ~Nodo(){
 

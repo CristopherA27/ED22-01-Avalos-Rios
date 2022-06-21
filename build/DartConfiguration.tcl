@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios
-BuildDirectory: C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build
+SourceDirectory: C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios
+BuildDirectory: C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LAPTOP-6B714T5F
+Site: CFRCH
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-MSBuild
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.31.31103/bin/Hostx86/x64/cl.exe
-CompilerVersion: 19.31.31105.0
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx86/x64/cl.exe
+CompilerVersion: 19.32.31329.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/MinGW/bin/gcov.exe
+CoverageCommand: COVERAGE_COMMAND-NOTFOUND
 CoverageExtraFlags: -l
 
 # Testing options

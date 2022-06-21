@@ -1,13 +1,15 @@
+#include "Persona.hpp"
+
 class Nodo{
     private:
-    int numero;
+    Persona persona;
     Nodo* next;
 
     public:
     Nodo();
-    Nodo(int numero);
+    Nodo(Persona persona);
     void setNext(Nodo* nodo);
     Nodo* getNext();
-    int getNumber();
+    int getPersona();
     ~Nodo();
 };
