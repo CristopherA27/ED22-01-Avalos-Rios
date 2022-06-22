@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx86/x64/lib.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.31.31103/bin/Hostx86/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build"
+			"value" : "c:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -511,7 +511,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios"
+			"value" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx86/x64/link.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.31.31103/bin/Hostx86/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "COVERAGE_COMMAND-NOTFOUND"
+			"value" : "C:/MinGW/bin/gcov.exe"
 		},
 		{
 			"name" : "COVERAGE_EXTRA_FLAGS",
@@ -1347,7 +1347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build"
+			"value" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build"
 		},
 		{
 			"name" : "ED22-01-AVALOS-RIOS_IS_TOP_LEVEL",
@@ -1371,7 +1371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios"
+			"value" : "C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
@@ -1383,7 +1383,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[D:/Escritorio/opencv/build][v4.6.0()]"
+			"value" : "[C:/Users/Jefer/Documents/opencv/build][v4.5.5()]"
 		},
 		{
 			"name" : "GITCOMMAND",
@@ -1475,7 +1475,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/Escritorio/opencv/build"
+			"value" : "C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib"
 		},
 		{
 			"name" : "P4COMMAND",
@@ -1507,7 +1507,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "CFRCH"
+			"value" : "LAPTOP-6B714T5F"
 		},
 		{
 			"name" : "SVNCOMMAND",
