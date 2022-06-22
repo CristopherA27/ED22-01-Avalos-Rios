@@ -5,14 +5,14 @@ Nodo::Nodo(){
     Nodo * nodo = new Nodo();
     nodo->persona = NULL;
     nodo->next = NULL;
-    return Nodo;
+    return nodo;
     
 }
 
 Nodo::Nodo(Persona persona){
     Nodo * n = new Nodo();
     n->persona = persona;
-    return Nodo;
+    return n;
     
 }  
 void Nodo::setNext(Nodo* nodo){

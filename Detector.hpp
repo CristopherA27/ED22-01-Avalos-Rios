@@ -1,7 +1,8 @@
 #ifndef DETECTOR_H
 #define DETECTOR_H
 
-//#include "Detector.hpp"
+#include "Detector.hpp"
+#include "Persona.hpp"
 
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>
@@ -10,12 +11,8 @@
 
 #include <iostream>
 #include <iomanip>
-#include "Persona.hpp"
-
-
 using namespace cv;
 using namespace std;
-
 
 class Detector
 {
@@ -30,11 +27,9 @@ public:
 
     void toggleMode();//el metodo que cambia de modo 
 
-    string modeName() const;//para saber en que modo estoy
-    template<typename Persona >
-    vector< Persona> detect(InputArray img);//retornar un vector con las
-    //detecciones del objeto rectangulo que hace hacia las personas
-
+    string modeName() const;
+    vector<Persona> detect(InputArray img);
+    
     void adjustRect(Rect & r) const;
     //ajusta el rectangulo que detecto el detector original
 };
