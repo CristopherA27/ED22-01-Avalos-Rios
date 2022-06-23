@@ -1,12 +1,16 @@
 #include "Persona.hpp"
 
+Persona::Persona() {
+
+}
+
 Persona::Persona(cv::Rect &r){//Persona recive un rectangulo
     xComienzo = r.x;
     yComienzo = r.y;
     xFin = r.x + r.width;
     yFin = r.y + r.height;
     xCentro = r.x + ((float)r.width/2.0);//calculo centroides
-    yCentro = r.y + ((float)r.height/2.0);;
+    yCentro = r.y + ((float)r.height/2.0);
 }
 int Persona::getXComienzo(){
     return xComienzo;
@@ -24,10 +28,9 @@ int Persona::getYFin(){
     return yFin;
 }
 
-double Persona::getXCentro(){
+int Persona::getXCentro(){
     return xCentro;
 }
-
-double Persona::getYCentro(){
+int Persona::getYCentro(){
     return yCentro;
 }

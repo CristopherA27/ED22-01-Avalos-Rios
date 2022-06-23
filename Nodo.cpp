@@ -3,16 +3,12 @@
 
 Nodo::Nodo(){
     Nodo * nodo = new Nodo();
-    nodo->persona = NULL;
-    nodo->next = NULL;
-    return nodo;
     
 }
 
-Nodo::Nodo(Persona persona){
+Nodo::Nodo(Persona persona) {
     Nodo * n = new Nodo();
     n->persona = persona;
-    return n;
     
 }  
 void Nodo::setNext(Nodo* nodo){

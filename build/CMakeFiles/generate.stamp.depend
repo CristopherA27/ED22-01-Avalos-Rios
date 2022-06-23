@@ -25,13 +25,14 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.23/Templates/CPackConfig.cmake.in
-C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/CMakeLists.txt
-C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
-C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
-C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
-C:/Users/Jefer/Documents/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeSystem.cmake
-C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib/OpenCVConfig-version.cmake
-C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
-C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
-C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
-C:/Users/Jefer/Documents/opencv/build/x64/vc15/lib/OpenCVModules.cmake
+C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/CMakeLists.txt
+C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
+C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake
+C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
+C:/Users/crist/OneDrive/Documentos/GitHub/ED22-01-Avalos-Rios/build/CMakeFiles/3.23.2/CMakeSystem.cmake
+D:/Escritorio/opencv/build/OpenCVConfig-version.cmake
+D:/Escritorio/opencv/build/OpenCVConfig.cmake
+D:/Escritorio/opencv/build/x64/vc15/lib/OpenCVConfig.cmake
+D:/Escritorio/opencv/build/x64/vc15/lib/OpenCVModules-debug.cmake
+D:/Escritorio/opencv/build/x64/vc15/lib/OpenCVModules-release.cmake
+D:/Escritorio/opencv/build/x64/vc15/lib/OpenCVModules.cmake

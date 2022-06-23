@@ -1,7 +1,6 @@
 #ifndef PERSONA_H
 #define PERSONA_H
 
-#include "Detector.hpp"
 
 #include <opencv2/objdetect.hpp>
 #include <opencv2/highgui.hpp>
@@ -16,17 +15,18 @@ private:
     int yComienzo;
     int xFin;
     int yFin;
-    double xCentro;
-    double yCentro;
+    int xCentro;
+    int yCentro;
 public:
+    Persona();
     Persona(cv::Rect&);
 
     int getXComienzo();
     int getYComienzo();
     int getXFin();
     int getYFin();
-    double getXCentro();
-    double getYCentro();
+    int getXCentro();
+    int getYCentro();
 };
 
 #endif
